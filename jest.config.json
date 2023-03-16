@@ -1,0 +1,16 @@
+{
+  "verbose": true,
+  "transform": {
+    "^.+\\.ts?$": "ts-jest"
+  },
+  "modulePathIgnorePatterns": [],
+  "collectCoverage": true,
+  "coverageReporters": ["lcov"],
+  "reporters": [
+    "default",
+    [
+      "./node_modules/jest-html-reporter",
+      { "outputPath": "reports/tests.html" }
+    ]
+  ]
+}

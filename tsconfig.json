@@ -1,0 +1,36 @@
+{
+  "root": true,
+  "compilerOptions": {
+    "outDir": "dist",
+    "allowUnreachableCode": false,
+    "downlevelIteration": true,
+    "allowUnusedLabels": false,
+    "exactOptionalPropertyTypes": false,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    "strict": true,
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "declaration": true,
+    "importHelpers": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "allowJs": false,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "ES5",
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "baseUrl": "."
+  },
+  "ts-node": {
+    "files": true
+  },
+  "include": ["src/**/*.ts", "src/main.js", "src/_index.tsa"],
+  "exclude": ["src/**/*.spec.ts"]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "birthdays",
+  "description": "Find whose birthdays are today from a register of people.",
+  "version": "0.1.0",
+  "author": "Joel Lefkowitz",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "husky install",
+    "lint": "eslint . --ext .ts --fix",
+    "format": "prettier . --write",
+    "test": "jest",
+    "build": "tsc",
+    "docs": "jsdoc -c .jsdoc.json",
+    "spellcheck": "cspell . --dot --unique",
+    "typecheck": "tsc --noEmit",
+    "secrets": "trufflehog3"
+  },
+  "dependencies": {
+    "luxon": "^3.3.0",
+    "superstruct": "^1.0.3",
+    "yargs": "^17.7.1"
+  },
+  "devDependencies": {
+    "@types/jest": "28.1.1",
+    "@types/luxon": "^3.2.0",
+    "@types/node": "^18.11.18",
+    "@types/superstruct": "^0.8.2",
+    "@types/yargs": "^17.0.22",
+    "@typescript-eslint/eslint-plugin": "^5.52.0",
+    "@typescript-eslint/parser": "^5.36.1",
+    "better-docs": "^2.7.2",
+    "cspell": "^6.26.3",
+    "eslint": "~8.34.0",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "http-server": "^14.1.1",
+    "husky": "^8.0.3",
+    "jest": "28.1.1",
+    "jest-cucumber": "^3.0.1",
+    "jest-html-reporter": "^3.7.0",
+    "jsdoc": "^4.0.2",
+    "minami": "^1.2.3",
+    "prettier": "^2.6.2",
+    "taffydb": "^2.7.3",
+    "ts-jest": "28.0.5",
+    "ts-node": "10.9.1",
+    "tslib": "^2.3.0",
+    "typescript": "^4.8.4"
+  }
+}
