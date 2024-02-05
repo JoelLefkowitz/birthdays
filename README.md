@@ -2,7 +2,7 @@
 
 Find whose birthdays are today from a register of people.
 
-![Review](https://img.shields.io/github/actions/workflow/status/JoelLefkowitz/reviewed/review.yml)
+![Review](https://img.shields.io/github/actions/workflow/status/JoelLefkowitz/cached-prisma/review.yml)
 ![Quality](https://img.shields.io/codacy/grade/11eae18873824e92a21de96b0a5c4831)
 ![Coverage](https://img.shields.io/codacy/coverage/11eae18873824e92a21de96b0a5c4831)
 

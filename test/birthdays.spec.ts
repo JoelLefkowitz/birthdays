@@ -3,9 +3,9 @@ import { defineFeature, loadFeature } from "jest-cucumber";
 import { main } from "../src/main";
 import path from "path";
 
-const fixtures = path.resolve(__dirname, "fixtures");
+const fixtures = path.join(__dirname, "fixtures");
 
-const feature = loadFeature(path.resolve(__dirname, "birthdays.feature"));
+const feature = loadFeature(path.join(__dirname, "birthdays.feature"));
 
 defineFeature(feature, (test) => {
   const log = jest.spyOn(console, "log").mockImplementation(() => {});
