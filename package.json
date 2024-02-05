@@ -1,7 +1,7 @@
 {
   "name": "birthdays",
   "description": "Find whose birthdays are today from a register of people.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "license": "MIT",
   "author": "Joel Lefkowitz",
