@@ -9,7 +9,7 @@ describe("Person.fullName", () => {
       "Bruce",
       ["Steve", "Harvey"],
       "Wayne",
-      date("2000/01/01")
+      date("2000/01/01"),
     );
 
     expect(bruce.fullName).toBe("Bruce Steve Harvey Wayne");

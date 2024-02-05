@@ -10,7 +10,7 @@ export class Person {
     private firstName: string,
     private middleNames: string[],
     private lastName: string,
-    private birthdate: DateTime
+    private birthdate: DateTime,
   ) {}
 
   /**

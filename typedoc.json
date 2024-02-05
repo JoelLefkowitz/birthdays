@@ -1,0 +1,14 @@
+{
+  "entryPoints": ["src/index.ts"],
+  "out": "./docs/dist",
+  "customCss": "docs/typedoc.css",
+  "cleanOutputDir": true,
+  "plugin": ["typedoc-material-theme"],
+  "themeColor": "#3C71F4",
+  "categorizeByGroup": true,
+  "groupOrder": ["Functions", "*"],
+  "navigation": {
+    "includeGroups": true,
+    "includeCategories": true
+  }
+}

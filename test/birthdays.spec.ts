@@ -1,19 +1,20 @@
-import { defineFeature, loadFeature } from "jest-cucumber";
-
 import { DateTime } from "luxon";
+import { defineFeature, loadFeature } from "jest-cucumber";
 import { main } from "../src/main";
 import path from "path";
 
-const feature = loadFeature("./tests/birthdays.feature");
-
 const fixtures = path.resolve(__dirname, "fixtures");
+
+const feature = loadFeature(path.resolve(__dirname, "birthdays.feature"));
 
 defineFeature(feature, (test) => {
   const log = jest.spyOn(console, "log").mockImplementation(() => {});
 
   const now = jest
     .spyOn(DateTime, "now")
-    .mockImplementation(() => DateTime.fromFormat("2000/01/30", "yyyy/MM/dd"));
+    .mockImplementation(
+      () => DateTime.fromFormat("2000/01/30", "yyyy/MM/dd") as DateTime<true>,
+    );
 
   afterEach(() => {
     process.argv = [];

@@ -27,7 +27,7 @@ export const validateRegister = (register: unknown): string[][] => {
  * @function validatePerson
  */
 export const validatePerson = (
-  row: string[]
+  row: string[],
 ): ConstructorParameters<typeof Person> => {
   const [lastName] = row;
 

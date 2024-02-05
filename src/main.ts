@@ -16,10 +16,6 @@ export const main = (): void => {
   console.log(
     people.length > 0
       ? people.map((person, i) => `${i + 1}: ${person.fullName}`).join("\n")
-      : "No birthdays today"
+      : "No birthdays today",
   );
 };
-
-if (require.main === module) {
-  main();
-}

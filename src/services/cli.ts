@@ -1,5 +1,5 @@
-import fs from "fs";
 import { hideBin } from "yargs/helpers";
+import fs from "fs";
 import path from "path";
 import yargs from "yargs/yargs";
 
@@ -13,7 +13,7 @@ export const cli = (): string => {
   const argv = yargs(hideBin(process.argv))
     .command(
       "$0 <path>",
-      "Find whose birthdays are today from a register of people."
+      "Find whose birthdays are today from a register of people.",
     )
     .positional("path", {
       type: "string",

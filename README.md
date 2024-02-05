@@ -2,13 +2,13 @@
 
 Find whose birthdays are today from a register of people.
 
-## Installing
+![Review](https://img.shields.io/github/actions/workflow/status/JoelLefkowitz/reviewed/review.yml)
+![Quality](https://img.shields.io/codacy/grade/11eae18873824e92a21de96b0a5c4831)
+![Coverage](https://img.shields.io/codacy/coverage/11eae18873824e92a21de96b0a5c4831)
 
-Install the dependencies:
+## Documentation
 
-```bash
-yarn
-```
+Documentation and more detailed examples are hosted on [Github Pages](https://joellefkowitz.github.io/cached-prisma).
 
 ## Usage
 
@@ -109,63 +109,35 @@ Scenario: Filtering a list of people when nobody has a birthday today
 
 Unit tests are necessary as well as they will help isolating any issues that arise.
 
-## Tests
+## Tooling
 
-Run unit and bdd style tests:
+### Tests
 
-```bash
-npm test
-```
-
-View the coverage report:
+To run tests:
 
 ```bash
-http-server -o reports/tests.html
+npm run test
 ```
 
-## Documentation
+### Documentation
 
-Generate the documentation:
+To generate the documentation locally:
 
 ```bash
 npm run docs
 ```
 
-Serve the documentation locally:
+### Linters
 
-```bash
-http-server -o docs/build
-```
-
-## Linters
-
-Lint the source code:
+To run linters:
 
 ```bash
 npm run lint
 ```
 
-Catch spelling mistakes:
+### Formatters
 
-```bash
-npm run spellcheck
-```
-
-Check for type errors:
-
-```bash
-npm run typecheck
-```
-
-Sniff out secrets in the git history:
-
-```bash
-npm run secrets
-```
-
-## Formatters
-
-Format the source code:
+To run formatters:
 
 ```bash
 npm run format
@@ -181,10 +153,10 @@ Input sample file:
 
 ```json
 [
-    ["Doe", "John", "1982/10/08"],
-    ["Wayne", "Bruce", "1965/01/30"],
-    ["Gaga", "Lady", "1986/03/28"],
-    ["Curry", "Mark", "1988/02/29"]
+  ["Doe", "John", "1982/10/08"],
+  ["Wayne", "Bruce", "1965/01/30"],
+  ["Gaga", "Lady", "1986/03/28"],
+  ["Curry", "Mark", "1988/02/29"]
 ]
 ```
 

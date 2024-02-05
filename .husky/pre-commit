@@ -1,10 +1,2 @@
-#!/usr/bin/env sh
-. "$(dirname -- "$0")/_/husky.sh"
-
-npm run spellcheck
-
 npm run lint
-npm run typecheck
-
-npm test
-npm run secrets
+npm run test

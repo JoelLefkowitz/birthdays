@@ -1,48 +1,29 @@
 {
   "language": "en",
   "ignorePaths": [
-    ".DS_Store",
+    ".git",
     ".gitignore",
-    "**/.git/**",
-    "**/.husky/**",
-    "**/build/**",
-    "**/coverage/**",
-    "**/dist/**",
-    "**/node_modules/**",
-    "**/reports/**",
-    "**/venv/**",
-    "yarn-error.log",
-    "yarn.lock"
+    ".husky",
+    "coverage",
+    "dist",
+    "yarn-error.log"
   ],
   "dictionaries": [
     "bash",
-    "companies",
-    "css",
     "en-gb",
-    "filetypes",
-    "fonts",
-    "html",
-    "local",
     "misc",
     "node",
-    "npm",
-    "python",
     "softwareTerms",
     "typescript"
   ],
   "words": [
+    "autofix",
     "bumpversion",
-    "camelcase",
+    "cliui",
+    "codacy",
     "datestamp",
-    "lcov",
     "lefkowitz",
-    "minami",
-    "nosecret",
-    "plusplus",
     "positionals",
-    "superstruct",
-    "taffydb",
-    "trufflehog",
-    "typecheck"
+    "superstruct"
   ]
 }

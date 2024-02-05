@@ -20,7 +20,7 @@ describe("birthdays", () => {
         ["Wayne", "Bruce", "1965/01/30"],
         ["Gaga", "Lady", "1986/03/28"],
         ["Curry", "Mark", "1988/02/29"],
-      ])
+      ]),
     ).toEqual([new Person("Bruce", [], "Wayne", date("1965/01/30"))]);
   });
 });
