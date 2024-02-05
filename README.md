@@ -45,7 +45,7 @@ If we were to assume the rows in register are always three entries long it would
 
 Let's allow the dataset to include a variable length of middle names:
 
-```json
+```ts
 [
   ["Doe", "John", "1982/10/08"],
   ["Wayne", "Harvey", "Steve", "Bruce", "1965/01/30"],
