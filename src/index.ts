@@ -1,5 +1,4 @@
-export * from "./main";
-export * from "./models/Person";
-export * from "./services/birthdays";
-export * from "./services/cli";
-export * from "./services/validation";
+export { Person } from "./models/Person";
+export { birthdays } from "./services/birthdays";
+export { cli } from "./services/cli";
+export { validateRegister, validatePerson } from "./services/validation";

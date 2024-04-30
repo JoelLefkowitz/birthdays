@@ -4,8 +4,8 @@ import path from "path";
 import yargs from "yargs/yargs";
 
 /**
- * Invoke the CLI and retrieve the contents of a register file.
- * Checks if the file exists.
+ * Invoke the CLI and retrieve the contents of a register file. Checks if the
+ * file exists.
  *
  * @function cli
  */

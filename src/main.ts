@@ -3,12 +3,10 @@ import { cli } from "./services/cli";
 import { validateRegister } from "./services/validation";
 
 /**
- * Invoke the CLI, filter a register of people to find whose birthdays are
- * today and log the results.
- *
- * @function main
+ * Invoke the CLI, filter a register of people to find whose birthdays are today
+ * and log the results.
  */
-export const main = (): void => {
+export const main = () => {
   const file = cli();
   const register = validateRegister(JSON.parse(file));
   const people = birthdays(register);

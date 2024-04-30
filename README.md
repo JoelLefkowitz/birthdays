@@ -2,13 +2,22 @@
 
 Find whose birthdays are today from a register of people.
 
-![Review](https://img.shields.io/github/actions/workflow/status/JoelLefkowitz/cached-prisma/review.yml)
+![Review](https://img.shields.io/github/actions/workflow/status/JoelLefkowitz/birthdays/review.yml)
+![Version](https://img.shields.io/npm/v/birthdays)
+![Downloads](https://img.shields.io/npm/dw/birthdays)
+![Size](https://img.shields.io/bundlephobia/min/birthdays)
 ![Quality](https://img.shields.io/codacy/grade/11eae18873824e92a21de96b0a5c4831)
 ![Coverage](https://img.shields.io/codacy/coverage/11eae18873824e92a21de96b0a5c4831)
 
+## Installing
+
+```bash
+npm install birthdays
+```
+
 ## Documentation
 
-Documentation and more detailed examples are hosted on [Github Pages](https://joellefkowitz.github.io/cached-prisma).
+Documentation and more detailed examples are hosted on [Github Pages](https://joellefkowitz.github.io/birthdays).
 
 ## Usage
 
@@ -109,40 +118,6 @@ Scenario: Filtering a list of people when nobody has a birthday today
 
 Unit tests are necessary as well as they will help isolating any issues that arise.
 
-## Tooling
-
-### Tests
-
-To run tests:
-
-```bash
-npm run test
-```
-
-### Documentation
-
-To generate the documentation locally:
-
-```bash
-npm run docs
-```
-
-### Linters
-
-To run linters:
-
-```bash
-npm run lint
-```
-
-### Formatters
-
-To run formatters:
-
-```bash
-npm run format
-```
-
 ## Assignment
 
 Given a JSON file with a list of people and their dates of birth, write a program to print out the people whose birthday is today.
@@ -179,3 +154,71 @@ Your submission must have:
 Bonus points for following Test-Driven Development.
 
 Please do not overcomplicate the code. You don’t need a web framework, database or message queues for this submission. Keep it simple!
+
+## Tooling
+
+### Dependencies
+
+To install dependencies:
+
+```bash
+yarn install
+```
+
+### Tests
+
+To run tests:
+
+```bash
+npm run test
+```
+
+### Documentation
+
+To generate the documentation locally:
+
+```bash
+npm run docs
+```
+
+### Linters
+
+To run linters:
+
+```bash
+npm run lint
+```
+
+### Formatters
+
+To run formatters:
+
+```bash
+npm run format
+```
+
+## Contributing
+
+Please read this repository's [Code of Conduct](CODE_OF_CONDUCT.md) which outlines our collaboration standards and the [Changelog](CHANGELOG.md) for details on breaking changes that have been made.
+
+This repository adheres to semantic versioning standards. For more information on semantic versioning visit [SemVer](https://semver.org).
+
+Bump2version is used to version and tag changes. For example:
+
+```bash
+bump2version patch
+```
+
+### Contributors
+
+- [Joel Lefkowitz](https://github.com/joellefkowitz) - Initial work
+
+## Remarks
+
+Lots of love to the open source community!
+
+<div align='center'>
+    <img width=200 height=200 src='https://media.giphy.com/media/osAcIGTSyeovPq6Xph/giphy.gif' alt='Be kind to your mind' />
+    <img width=200 height=200 src='https://media.giphy.com/media/KEAAbQ5clGWJwuJuZB/giphy.gif' alt='Love each other' />
+    <img width=200 height=200 src='https://media.giphy.com/media/WRWykrFkxJA6JJuTvc/giphy.gif' alt="It's ok to have a bad day" />
+</div>
