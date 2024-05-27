@@ -12,6 +12,7 @@
   ],
   "keywords": [
     "birthdays",
+    "parser",
     "validation"
   ],
   "packageManager": "yarn@4.1.1",
