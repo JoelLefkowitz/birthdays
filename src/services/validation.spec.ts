@@ -33,13 +33,13 @@ describe("validatePerson", () => {
   it("accepts multiple middle names", () => {
     const [_, middleNames] = validatePerson([
       "Wayne",
-      "Blain",
-      "Dwayne",
+      "Harvey",
+      "Steve",
       "Bruce",
       "1965/01/30",
     ]);
 
-    expect(middleNames).toEqual(["Dwayne", "Blain"]);
+    expect(middleNames).toEqual(["Steve", "Harvey"]);
   });
 
   it("throws if the last name is missing", () => {

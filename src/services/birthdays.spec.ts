@@ -7,7 +7,7 @@ const date = (str: string): DateTime => DateTime.fromFormat(str, "yyyy/MM/dd");
 describe("birthdays", () => {
   const now = jest
     .spyOn(DateTime, "now")
-    .mockImplementation(() => date("2000/01/30"));
+    .mockImplementation(() => date("1965/01/30"));
 
   afterAll(() => {
     now.mockRestore();

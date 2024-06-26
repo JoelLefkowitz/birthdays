@@ -24,7 +24,7 @@ Documentation and more detailed examples are hosted on [Github Pages](https://jo
 Build the package:
 
 ```bash
-npm run build
+yarn build
 ```
 
 Call the entrypoint with a path to the register of people:
@@ -98,28 +98,6 @@ To take a balanced approach to the leveraging libraries this repository uses:
 
 We don't want to reinvent the wheel, but also don't wan't a bloated set of dependencies.
 
-#### Testing
-
-Since the functionality is a measurable, complete and an isolated unit we can take a behaviour driven development approach and define some functional criteria:
-
-`tests/birthdays.feature`
-
-```feature
-Feature: Find whose birthdays are today from a register of people
-
-Scenario: Filtering a list of people to find whose birthdays are today
-    Given I have a register of people
-    When I filter the register to find whose birthdays are today
-    Then I should get a numbered list of each person's full name
-
-Scenario: Filtering a list of people when nobody has a birthday today
-    Given I have a an empty register
-    When I filter the register to find whose birthdays are today
-    Then I should get a message saying nobody has a birthday today
-```
-
-Unit tests are necessary as well as they will help isolating any issues that arise.
-
 ### Assignment
 
 Given a JSON file with a list of people and their dates of birth, write a program to print out the people whose birthday is today.
@@ -172,7 +150,7 @@ yarn install
 To run tests:
 
 ```bash
-npm run test
+yarn test
 ```
 
 ### Documentation
@@ -180,7 +158,7 @@ npm run test
 To generate the documentation locally:
 
 ```bash
-npm run docs
+yarn docs
 ```
 
 ### Linters
@@ -188,7 +166,7 @@ npm run docs
 To run linters:
 
 ```bash
-npm run lint
+yarn lint
 ```
 
 ### Formatters
@@ -196,7 +174,7 @@ npm run lint
 To run formatters:
 
 ```bash
-npm run format
+yarn format
 ```
 
 ## Contributing
