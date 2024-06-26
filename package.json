@@ -41,7 +41,8 @@
   },
   "dependencies": {
     "luxon": "^3.4.4",
-    "superstruct": "^1.0.3"
+    "superstruct": "^1.0.3",
+    "yargs": "^17.7.2"
   },
   "devDependencies": {
     "@types/glob": "^8.1.0",
