@@ -19,7 +19,9 @@
     "giphy",
     "jsdoc",
     "lefkowitz",
+    "pinst",
     "positionals",
+    "postpack",
     "superstruct",
     "trufflehog"
   ]
