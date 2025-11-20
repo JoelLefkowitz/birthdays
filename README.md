@@ -2,7 +2,7 @@
 
 Find whose birthdays are today from a register of people.
 
-![Review](https://img.shields.io/github/actions/workflow/status/JoelLefkowitz/birthdays/review.yml)
+![Review](https://img.shields.io/github/actions/workflow/status/JoelLefkowitz/birthdays/review.yaml)
 ![Version](https://img.shields.io/npm/v/birthdays)
 ![Downloads](https://img.shields.io/npm/dw/birthdays)
 ![Size](https://img.shields.io/bundlephobia/min/birthdays)
